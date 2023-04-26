@@ -1,0 +1,48 @@
+.container {
+  max-width: 1800px;
+  max-height: 1020px;
+  margin: 0 auto;
+  padding: 188px;
+  background-color: #ffa500;
+  
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ff0000;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+/* Optional: add some hover effects */
+tr:hover {
+    background-color: #ffcccc;
+}
+
+th:hover {
+  background-color: #ffcccc;
+}
+
+td:hover {
+  background-color: #ffcccc;
+}

@@ -1,0 +1,49 @@
+/* Set background color to #ffa500 (orange) */
+body {
+  background: whitesmoke;
+}
+
+/* Center container div */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffcc; /* Set container background color to #ffffcc (light yellow) */
+}
+
+/* Style header */
+.header h1 {
+  color: #ff0000;
+}
+
+/* Style menu */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px; /* Add space between buttons */
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 20px;
+  background-color: #ff0000; /* Set button background color to red */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.menu li a:hover {
+  background-color: #ffcccc; /* Set button hover background color to lighter red */
+}
+
+/* Style footer */
+.footer p {
+  margin-top: 20px;
+  color: #999;
+}
